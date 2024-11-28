@@ -10,7 +10,10 @@ namespace MathGame
 
         static void Main(string[] args)
         {
-            string name = UserInput.GetStringInput(prompt: "Type your name", reaskPrompt: "Please enter your name", clearConsoleOnError: true);
+            Console.WriteLine("Welcome to Math Game!");
+            Console.WriteLine("- - - - - - - - - - - - - -");
+            Console.WriteLine("Press any key to start the game!");
+            Console.ReadKey();
 
             bool shouldExit = false;
             do
